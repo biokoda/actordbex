@@ -1,4 +1,4 @@
-defmodule ActordbexTest do
+defmodule ActorDB.Test do
   use ExUnit.Case
   doctest Actordbex
 

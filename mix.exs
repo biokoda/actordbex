@@ -19,4 +19,19 @@ defmodule ActorDB.Mixfile do
       {:actordb_client, git: "https://github.com/biokoda/actordb_client", branch: "master"}
     ]
   end
+
+  defp description do
+    """
+    ActorDB client for Elixir
+    """
+  end
+
+  defp package do
+    [
+     files: ["config", "lib", "test", "mix.exs", "README*", "LICENSE*"],
+     maintainers: ["Denis Justinek", "Sergej Jurecko"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/biokoda/actordbex",
+              "Docs" => "https://github.com/biokoda/actordbex/blob/master/README.md"}]
+  end
 end
